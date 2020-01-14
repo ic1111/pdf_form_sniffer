@@ -2,7 +2,7 @@ import os
 import pdfrw
 from reportlab.pdfgen import canvas
 
-path = r'C:\Users\dgottesm\Desktop\{}'
+path = r'{}'
 form = "f8621"
 FORM_TEMPLATE_PATH = path.format(form) + '.pdf'
 FORM_OVERLAY_PATH = path.format(form) +'_overlay.pdf'
